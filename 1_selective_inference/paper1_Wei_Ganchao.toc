@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Introduction: Selectie Inference}{3}{0}{1}
+\beamer@sectionintoc {2}{Forward Stepwise Regression}{5}{0}{2}
+\beamer@sectionintoc {3}{The LASSO}{12}{0}{3}
+\beamer@sectionintoc {4}{PCA}{14}{0}{4}

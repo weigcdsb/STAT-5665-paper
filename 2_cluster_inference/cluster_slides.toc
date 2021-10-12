@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Introduction and Motivation}{3}{0}{1}
+\beamer@sectionintoc {2}{Selective Inference for Clustering}{6}{0}{2}
+\beamer@sectionintoc {3}{Extensions}{14}{0}{3}
+\beamer@sectionintoc {4}{Simulation}{15}{0}{4}
+\beamer@sectionintoc {5}{Application}{18}{0}{5}
