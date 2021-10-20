@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.12.6)  15 OCT 2021 13:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.12.6)  20 OCT 2021 11:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1171,7 +1171,7 @@ Package rerunfilecheck Info: File `aspca_slides.out' has not changed.
 Here is how much of TeX's memory you used:
  18461 strings out of 479383
  356091 string characters out of 5868871
- 649564 words of memory out of 5000000
+ 649550 words of memory out of 5000000
  35032 multiletter control sequences out of 15000+600000
  425248 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1197,7 +1197,7 @@ y8.pfb><e:/software/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols
 /msam10.pfb><e:/software/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/sy
 mbols/msbm10.pfb><e:/software/texlive/2020/texmf-dist/fonts/type1/public/cm-sup
 er/sfso1000.pfb>
-Output written on aspca_slides.pdf (20 pages, 1889685 bytes).
+Output written on aspca_slides.pdf (20 pages, 1889684 bytes).
 PDF statistics:
  701 PDF objects out of 1000 (max. 8388607)
  613 compressed objects within 7 object streams

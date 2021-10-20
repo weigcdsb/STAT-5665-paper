@@ -118,7 +118,7 @@
 		\end{itemize}
 		\textbf{Setting}: single factor model
 		$$\bm{x}_i=\nu_i\bm{\rho} + \sigma\bm{z}_i,\,\, i=1,\ldots,n$$
-		, where $\bm{x}_i \in \mathbb{R}^p$,  $\bm{\rho}_i \in \mathbb{R}^p$, $\nu_i\sim N(0,1)$ and $\bm{z}_i\sim N_p(0,I)$
+		, where $\bm{x}_i \in \mathbb{R}^p$,  $\bm{\rho} \in \mathbb{R}^p$, $\nu_i\sim N(0,1)$ and $\bm{z}_i\sim N_p(0,I)$
 	\end{frame}
 	
 	\begin{frame}
@@ -185,7 +185,7 @@
 			\includegraphics[width=0.5\linewidth]{image003.png}
 		\end{figure}
 		Denote the ordered magnitutes as $|\rho|_{(1)} \geq |\rho|_{(2)} \geq \ldots$ We further need the magnitudes decay rather quickly:
-		$$|\rho|_{\nu} \leq C\nu^{-1/q}$$
+		$$|\rho|_{(\nu)} \leq C\nu^{-1/q}$$
 		,where $0<q<2$ and $C>0$.
 		
 		In other words, we want the "energy" in the largest $k$ coordinates $\sum_{i=1}^{k}\rho^2_{(i)}$ is close to the total energy $||\bm{\rho}||^2$.
@@ -223,7 +223,7 @@
 	
 	\begin{frame}
 		\frametitle{Correct Selection Properties}
-		\textbf{Question}: Do the selected subset $\hat{I}$ in fact correctly contains the largest \textbf{population} variances? And on those (no false inclusion)?\\
+		\textbf{Question}: Do the selected subset $\hat{I}$ in fact correctly contains the largest \textbf{population} variances? And only those (no false inclusion)?\\
 		For this section, assume sample (coordinate) variance have marginal $\chi^2$ distribution:
 		$$\hat{\sigma}^2_{\nu} = S_{\nu\nu}\sim \sigma^2_{\nu}\chi^2_{(n)}/n$$
 		Denote the orderd population \& sample coordinate variance as $\sigma^2_{(1)}\geq \sigma^2_{(2)}\geq\ldots$ and $\hat{\sigma}^2_{(1)}\geq \hat{\sigma}^2_{(2)}\geq\ldots$. And further denote:
