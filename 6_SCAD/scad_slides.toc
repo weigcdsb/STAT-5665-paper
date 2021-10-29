@@ -1,0 +1,8 @@
+\beamer@sectionintoc {1}{Penalized Least Squares and Variable Selection}{3}{0}{1}
+\beamer@sectionintoc {2}{Variable Selection via Penalized Likelihood}{10}{0}{2}
+\beamer@sectionintoc {3}{Simulation}{15}{0}{3}
+\beamer@sectionintoc {4}{Simulation}{16}{0}{4}
+\beamer@sectionintoc {5}{Simulation}{17}{0}{5}
+\beamer@sectionintoc {6}{Simulation}{18}{0}{6}
+\beamer@sectionintoc {7}{Simulation}{19}{0}{7}
+\beamer@sectionintoc {8}{Application}{20}{0}{8}

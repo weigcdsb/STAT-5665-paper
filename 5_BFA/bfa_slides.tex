@@ -111,7 +111,7 @@
 		\frametitle{Introduction}
 		The generic form of a latent factor model:
 		$$y_i = \Lambda \eta_i + \epsilon_i$$
-		, where $y_i \in \mathbb{R}^p$, $\Lambda \in \mathbb{R}^{p \times k}$, $\eta_i \sim N_k(9, I_k)$, $\epsilon_i \sim N_p(0, \Sigma)$ and $\Sigma = diag(\sigma_1^2,\ldots, \sigma_p^2)$. Therefore, marginally, $y_i \sim N_p(0, \Omega)$ with $\Omega = \Lambda \Lambda^{T} + \Sigma$	.\\
+		, where $y_i \in \mathbb{R}^p$, $\Lambda \in \mathbb{R}^{p \times k}$, $\eta_i \sim N_k(0, I_k)$, $\epsilon_i \sim N_p(0, \Sigma)$ and $\Sigma = diag(\sigma_1^2,\ldots, \sigma_p^2)$. Therefore, marginally, $y_i \sim N_p(0, \Omega)$ with $\Omega = \Lambda \Lambda^{T} + \Sigma$	.\\
 		\vspace{\baselineskip}
 		In traditional factor analysis, we need to put constraints on loading. However, from Bayesian perspective, one does not require identifiability of the loading elements for a wide class of applications.  By making use of this, they define the prior on a parameter-expanded loadings matrix with redundant parameters, resulting in better computational properties while simplifying the theory.
 	\end{frame}
@@ -160,7 +160,7 @@
 	
 	
 	\begin{frame}
-		\frametitle{Gibbs sampler with a fixed}
+		\frametitle{Gibbs sampler with a fixed truncation level}
 		\begin{figure}
 			\includegraphics[width=0.9\linewidth]{image003.png}
 		\end{figure}	
@@ -191,7 +191,7 @@
 		Simulation settings:
 		\begin{itemize}
 			\item 
-			$y_i \in \mathbb{R}^p$ for $i=1,\ldots,200$. The diagonal elements of $\Sigma^-1$ are drawn independently from Ga(1, 0.25).
+			$y_i \in \mathbb{R}^p$ for $i=1,\ldots,200$. The diagonal elements of $\Sigma^{-1}$ are drawn independently from Ga(1, 0.25).
 			\item
 			They choose 3 combinations of (p,k): (100,5), (500, 10) and (1000, 15)
 			\item
@@ -212,7 +212,7 @@
 	
 	\begin{frame}
 		\frametitle{Latent factor regression}
-		Instead of doing regularization (e.g. LASSO \& elastic net), we can regard it as the latent factor regression problem.\\
+		Instead of doing regularization (e.g. LASSO \& elastic net) for variable selection, we can regard it as the latent factor regression problem.\\
 		Consider $E(z_i|x_i) = x_i^T\beta$, with $\beta = \Omega_{xx}^{-1}\Omega_{zx}$ and $\Omega_{xx} = \Lambda_x\Lambda_x^T + \Sigma_{xx}$. Just use the sub-blocks of factor analysis results, then everything is done. 
 		\begin{figure}
 			\includegraphics[width=0.8\linewidth]{image005.png}
