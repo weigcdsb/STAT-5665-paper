@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.12.6)  29 OCT 2021 18:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.12.6)  3 NOV 2021 11:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1024,7 +1024,7 @@ d
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<image001.png, id=126, 470.13141pt x 124.21407pt>
+<image001.png, id=102, 470.13141pt x 124.21407pt>
 File: image001.png Graphic file (type png)
 <use image001.png>
 Package pdftex.def Info: image001.png  used on input line 118.
@@ -1036,12 +1036,12 @@ Package pdftex.def Info: image001.png  used on input line 118.
 ] [5
 
 ]
-<image002.png, id=220, 1502.61375pt x 570.63188pt>
+<image002.png, id=196, 1502.61375pt x 570.63188pt>
 File: image002.png Graphic file (type png)
 <use image002.png>
 Package pdftex.def Info: image002.png  used on input line 159.
 (pdftex.def)             Requested size: 239.60567pt x 90.9895pt.
-<image003.png, id=221, 1496.59125pt x 594.72188pt>
+<image003.png, id=197, 1496.59125pt x 594.72188pt>
 File: image003.png Graphic file (type png)
 <use image003.png>
 Package pdftex.def Info: image003.png  used on input line 159.
@@ -1049,7 +1049,7 @@ Package pdftex.def Info: image003.png  used on input line 159.
  [6
 
  <./image002.png> <./image003.png>]
-<image005.png, id=250, 1510.89468pt x 666.99188pt>
+<image005.png, id=226, 1510.89468pt x 666.99188pt>
 File: image005.png Graphic file (type png)
 <use image005.png>
 Package pdftex.def Info: image005.png  used on input line 169.
@@ -1057,12 +1057,12 @@ Package pdftex.def Info: image005.png  used on input line 169.
  [7
 
  <./image005.png>]
-<image007.png, id=281, 364.73766pt x 62.85985pt>
+<image007.png, id=256, 364.73766pt x 62.85985pt>
 File: image007.png Graphic file (type png)
 <use image007.png>
 Package pdftex.def Info: image007.png  used on input line 181.
 (pdftex.def)             Requested size: 239.60567pt x 41.29385pt.
-<image008.png, id=282, 359.09157pt x 63.23625pt>
+<image008.png, id=257, 359.09157pt x 63.23625pt>
 File: image008.png Graphic file (type png)
 <use image008.png>
 Package pdftex.def Info: image008.png  used on input line 181.
@@ -1070,7 +1070,7 @@ Package pdftex.def Info: image008.png  used on input line 181.
  [8
 
  <./image007.png> <./image008.png>]
-<image006.png, id=310, 1508.63625pt x 668.4975pt>
+<image006.png, id=286, 1508.63625pt x 668.4975pt>
 File: image006.png Graphic file (type png)
 <use image006.png>
 Package pdftex.def Info: image006.png  used on input line 189.
@@ -1078,17 +1078,17 @@ Package pdftex.def Info: image006.png  used on input line 189.
  [9
 
  <./image006.png>]
-<image009.png, id=338, 216.81pt x 42.91031pt>
+<image009.png, id=314, 216.81pt x 42.91031pt>
 File: image009.png Graphic file (type png)
 <use image009.png>
 Package pdftex.def Info: image009.png  used on input line 212.
 (pdftex.def)             Requested size: 160.19762pt x 31.70728pt.
-<image010.png, id=339, 188.20313pt x 44.79234pt>
+<image010.png, id=315, 188.20313pt x 44.79234pt>
 File: image010.png Graphic file (type png)
 <use image010.png>
 Package pdftex.def Info: image010.png  used on input line 212.
 (pdftex.def)             Requested size: 160.19762pt x 38.1297pt.
-<image011.png, id=340, 194.97844pt x 43.66313pt>
+<image011.png, id=316, 194.97844pt x 43.66313pt>
 File: image011.png Graphic file (type png)
 <use image011.png>
 Package pdftex.def Info: image011.png  used on input line 212.
@@ -1100,7 +1100,7 @@ Package pdftex.def Info: image011.png  used on input line 212.
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
 (Font)              using `OT1/cmss/m/n' instead on input line 228.
 
-<image012.png, id=371, 740.7675pt x 216.05719pt>
+<image012.png, id=347, 740.7675pt x 216.05719pt>
 File: image012.png Graphic file (type png)
 <use image012.png>
 Package pdftex.def Info: image012.png  used on input line 228.
@@ -1108,7 +1108,7 @@ Package pdftex.def Info: image012.png  used on input line 228.
 [11
 
  <./image012.png>]
-<image013.png, id=400, 657.95813pt x 658.71094pt>
+<image013.png, id=375, 657.95813pt x 658.71094pt>
 File: image013.png Graphic file (type png)
 <use image013.png>
 Package pdftex.def Info: image013.png  used on input line 238.
@@ -1120,22 +1120,22 @@ Overfull \vbox (0.264pt too high) detected at line 238
 [12
 
  <./image013.png>]
-<image014.png, id=428, 283.0575pt x 47.42719pt>
+<image014.png, id=404, 283.0575pt x 47.42719pt>
 File: image014.png Graphic file (type png)
 <use image014.png>
 Package pdftex.def Info: image014.png  used on input line 256.
 (pdftex.def)             Requested size: 205.37926pt x 34.41313pt.
-<image015.png, id=429, 648.17157pt x 92.59593pt>
+<image015.png, id=405, 648.17157pt x 92.59593pt>
 File: image015.png Graphic file (type png)
 <use image015.png>
 Package pdftex.def Info: image015.png  used on input line 256.
 (pdftex.def)             Requested size: 205.37926pt x 29.34024pt.
-<image016.png, id=430, 338.76563pt x 46.67438pt>
+<image016.png, id=406, 338.76563pt x 46.67438pt>
 File: image016.png Graphic file (type png)
 <use image016.png>
 Package pdftex.def Info: image016.png  used on input line 256.
 (pdftex.def)             Requested size: 102.68962pt x 14.1484pt.
-<image017.png, id=431, 642.90187pt x 133.24782pt>
+<image017.png, id=407, 642.90187pt x 133.24782pt>
 File: image017.png Graphic file (type png)
 <use image017.png>
 Package pdftex.def Info: image017.png  used on input line 256.
@@ -1143,7 +1143,7 @@ Package pdftex.def Info: image017.png  used on input line 256.
  [13
 
  <./image014.png> <./image015.png> <./image016.png> <./image017.png>]
-<image018.png, id=462, 642.14906pt x 100.12407pt>
+<image018.png, id=438, 642.14906pt x 100.12407pt>
 File: image018.png Graphic file (type png)
 <use image018.png>
 Package pdftex.def Info: image018.png  used on input line 265.
@@ -1153,56 +1153,56 @@ Package pdftex.def Info: image018.png  used on input line 265.
  <./image018.png>] [15
 
 ]
-<image019.png, id=515, 514.17094pt x 691.08188pt>
+<image019.png, id=492, 514.17094pt x 691.08188pt>
 File: image019.png Graphic file (type png)
 <use image019.png>
-Package pdftex.def Info: image019.png  used on input line 284.
+Package pdftex.def Info: image019.png  used on input line 283.
 (pdftex.def)             Requested size: 171.14764pt x 230.04019pt.
 
-Overfull \vbox (8.9696pt too high) detected at line 284
+Overfull \vbox (8.9696pt too high) detected at line 283
  []
 
 [16
 
  <./image019.png>]
-<image020.png, id=542, 749.04843pt x 251.43938pt>
+<image020.png, id=521, 749.04843pt x 251.43938pt>
 File: image020.png Graphic file (type png)
 <use image020.png>
-Package pdftex.def Info: image020.png  used on input line 292.
+Package pdftex.def Info: image020.png  used on input line 290.
 (pdftex.def)             Requested size: 308.06367pt x 103.40924pt.
  [17
 
  <./image020.png>]
-<image021.png, id=569, 734.745pt x 313.9228pt>
+<image021.png, id=549, 734.745pt x 313.9228pt>
 File: image021.png Graphic file (type png)
 <use image021.png>
-Package pdftex.def Info: image021.png  used on input line 303.
+Package pdftex.def Info: image021.png  used on input line 298.
 (pdftex.def)             Requested size: 205.37926pt x 87.74928pt.
-<image022.png, id=570, 1044.15094pt x 324.46219pt>
+<image022.png, id=550, 1044.15094pt x 324.46219pt>
 File: image022.png Graphic file (type png)
 <use image022.png>
-Package pdftex.def Info: image022.png  used on input line 303.
+Package pdftex.def Info: image022.png  used on input line 298.
 (pdftex.def)             Requested size: 308.06367pt x 95.73036pt.
  [18
 
  <./image021.png> <./image022.png>]
-<image023.png, id=598, 738.50906pt x 330.48468pt>
+<image023.png, id=578, 738.50906pt x 330.48468pt>
 File: image023.png Graphic file (type png)
 <use image023.png>
-Package pdftex.def Info: image023.png  used on input line 312.
+Package pdftex.def Info: image023.png  used on input line 306.
 (pdftex.def)             Requested size: 205.37926pt x 91.90472pt.
-<image024.png, id=599, 1050.92625pt x 328.22626pt>
+<image024.png, id=579, 1050.92625pt x 328.22626pt>
 File: image024.png Graphic file (type png)
 <use image024.png>
-Package pdftex.def Info: image024.png  used on input line 312.
+Package pdftex.def Info: image024.png  used on input line 306.
 (pdftex.def)             Requested size: 308.06367pt x 96.21489pt.
  [19
 
  <./image023.png> <./image024.png>]
-<image025.png, id=629, 1458.95062pt x 516.42938pt>
+<image025.png, id=608, 1458.95062pt x 516.42938pt>
 File: image025.png Graphic file (type png)
 <use image025.png>
-Package pdftex.def Info: image025.png  used on input line 320.
+Package pdftex.def Info: image025.png  used on input line 314.
 (pdftex.def)             Requested size: 342.2953pt x 121.16391pt.
  [20
 
@@ -1219,17 +1219,17 @@ Package pdftex.def Info: image025.png  used on input line 320.
 
 (./scad_slides.aux)
 Package rerunfilecheck Info: File `scad_slides.out' has not changed.
-(rerunfilecheck)             Checksum: D678D6CD6CF8CF65E063F7ABC9B506DD;430.
+(rerunfilecheck)             Checksum: 2953FF13879063B18B55637B50B14C72;250.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 18539 strings out of 479383
- 357164 string characters out of 5868871
- 651245 words of memory out of 5000000
- 35097 multiletter control sequences out of 15000+600000
+ 18519 strings out of 479383
+ 356980 string characters out of 5868871
+ 647245 words of memory out of 5000000
+ 35081 multiletter control sequences out of 15000+600000
  425248 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,15n,126p,415b,590s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1249,10 +1249,10 @@ pfb><e:/software/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb><e:/software/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.p
 fb><e:/software/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfso1000.pf
 b>
-Output written on scad_slides.pdf (20 pages, 1224409 bytes).
+Output written on scad_slides.pdf (20 pages, 1223451 bytes).
 PDF statistics:
- 717 PDF objects out of 1000 (max. 8388607)
- 614 compressed objects within 7 object streams
- 49 named destinations out of 1000 (max. 500000)
- 257 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 695 PDF objects out of 1000 (max. 8388607)
+ 593 compressed objects within 6 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 225 words of extra memory for PDF output out of 10000 (max. 10000000)
 
