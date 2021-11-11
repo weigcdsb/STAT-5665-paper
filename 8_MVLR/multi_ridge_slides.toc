@@ -1,0 +1,7 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Factor Estimation and Selection}{4}{0}{2}
+\beamer@sectionintoc {3}{Orthogonal Design}{6}{0}{3}
+\beamer@sectionintoc {4}{Tuning}{8}{0}{4}
+\beamer@sectionintoc {5}{Simulation}{10}{0}{5}
+\beamer@sectionintoc {6}{Application}{14}{0}{6}
+\beamer@sectionintoc {7}{Non-parametric Factor Model}{18}{0}{7}

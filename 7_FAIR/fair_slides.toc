@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Impact of High Dimensionality}{4}{0}{2}
+\beamer@sectionintoc {3}{Feature Selection by two-sample t-test}{9}{0}{3}
+\beamer@sectionintoc {4}{Features Annealed Independence Rules}{11}{0}{4}
+\beamer@sectionintoc {5}{Numerical Studies}{17}{0}{5}
