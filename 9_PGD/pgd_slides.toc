@@ -1,1 +1,5 @@
 \beamer@sectionintoc {1}{Tensor regression}{3}{0}{1}
+\beamer@sectionintoc {2}{PGD}{6}{0}{2}
+\beamer@sectionintoc {3}{PGD for GLM}{11}{0}{3}
+\beamer@sectionintoc {4}{PGD error for 3 specific sparsities}{16}{0}{4}
+\beamer@sectionintoc {5}{Simulations}{20}{0}{5}
