@@ -1,1 +1,5 @@
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Limiting distributions}{5}{0}{2}
+\beamer@sectionintoc {3}{Local asymptotics and small parameters}{15}{0}{3}
+\beamer@sectionintoc {4}{Bootstrapping}{17}{0}{4}
+\beamer@sectionintoc {5}{Nearly Singular Design}{18}{0}{5}

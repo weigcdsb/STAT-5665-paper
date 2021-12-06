@@ -88,7 +88,7 @@
 \title[Asymptotic LASSO]{Asymptotics for LASSO-type Estimators} 
 
 \author{Ganchao Wei} 
-\date{December 8, 2021}
+\date{December 6, 2021}
 
 \begin{document}
 	
@@ -143,6 +143,8 @@
 		 Under the regularity conditions, we know the OLS estimator is consistent and:
 		$$\sqrt{n}(\hat{\bm{\beta}}_n^{(0)} - \bm{\beta}) \to_{d} N(\bm{0}, \sigma^2C^{-1})$$
 	\end{frame}
+	
+	\section{Limiting distributions}
 	
 	\begin{frame}
 		\frametitle{Limiting distributions}
@@ -201,9 +203,9 @@
 		For $\gamma = 1$:
 		\begin{itemize}
 			\item 
-			the asymptotic variances decreases as $\gamma_0$ increases.
+			the asymptotic variances decreases as $\lambda_0$ increases.
 			\item
-			As $\gamma_0$ increases, the asymptotic bias of $\hat{\beta}_{n1}$ becomes increasingly negative, while $\hat{\beta}_{n2}$ increase away from 0 then decreases to 0.
+			As $\lambda_0$ increases, the asymptotic bias of $\hat{\beta}_{n1}$ becomes increasingly negative, while $\hat{\beta}_{n2}$ increase away from 0 then decreases to 0.
 		\end{itemize}
 		\begin{figure}
 			\includegraphics[width=1\linewidth]{image006.png}
@@ -245,9 +247,11 @@
 		The shrinkage is more selective. And there's a gap in the distribution of $\hat{U}_2$ ("no man's land")
 	\end{frame}
 	
+	\section{Local asymptotics and small parameters}
+	
 	\begin{frame}
 		\frametitle{Local asymptotics and small parameters}
-		They further consider the performance for finite sample. They show how the "exact 0" phenomenon occur in finite samples, when the true parameter is small bu nonzero ($\gamma \leq 1$). The statement \& proofs are similar.
+		They further consider the performance for finite sample. They show how the "exact 0" phenomenon occur in finite samples, when the true parameter is small but nonzero ($\gamma \leq 1$). The statement \& proofs are similar.
 		\begin{figure}
 			\includegraphics[width=.8\linewidth]{image011.png}
 			\includegraphics[width=.8\linewidth]{image012.png}
@@ -261,6 +265,8 @@
 		\end{figure}
 	\end{frame}
 	
+	\section{Bootstrapping}
+	
 	\begin{frame}
 		\frametitle{Bootstrapping}
 		Estimating the standard error to bridge parameter estimates is nontrivial, especially when $\gamma \leq 1$.
@@ -273,6 +279,8 @@
 			some true parameters are either exactly 0 or close to 0.
 		\end{itemize}
 	\end{frame}
+	
+	\section{Nearly Singular Design}
 	
 	\begin{frame}
 		\frametitle{Nearly singular design}
