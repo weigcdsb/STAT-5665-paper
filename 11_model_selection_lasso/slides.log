@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.12.6)  25 NOV 2021 11:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.12.6)  7 DEC 2021 09:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1001,175 +1001,206 @@ Dictionary: translator-theorem-dictionary, Language: English
 ) (./slides.nav) [1
 
 {e:/software/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./sli
-des.toc) [2
-
-]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 121
-.
+des.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
 
 (e:/software/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 121
-.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 
 (e:/software/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 121.
+ut line 3.
 
 (e:/software/texlive/2020/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.f
 d
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-) [3
+)) [2
+
+] [3
 
 ] [4
 
 ]
-<image001.png, id=147, 469.3786pt x 112.16907pt>
+<image001.png, id=176, 469.3786pt x 112.16907pt>
 File: image001.png Graphic file (type png)
 <use image001.png>
-Package pdftex.def Info: image001.png  used on input line 150.
+Package pdftex.def Info: image001.png  used on input line 152.
 (pdftex.def)             Requested size: 342.2953pt x 81.79886pt.
  [5
 
  <./image001.png>]
-<image002.png, id=176, 469.3786pt x 62.10703pt>
+<image002.png, id=206, 469.3786pt x 62.10703pt>
 File: image002.png Graphic file (type png)
 <use image002.png>
-Package pdftex.def Info: image002.png  used on input line 161.
+Package pdftex.def Info: image002.png  used on input line 163.
 (pdftex.def)             Requested size: 342.2953pt x 45.29129pt.
-<image003.png, id=177, 470.50781pt x 49.30922pt>
+<image003.png, id=207, 470.50781pt x 49.30922pt>
 File: image003.png Graphic file (type png)
 <use image003.png>
-Package pdftex.def Info: image003.png  used on input line 161.
+Package pdftex.def Info: image003.png  used on input line 163.
 (pdftex.def)             Requested size: 342.2953pt x 35.87277pt.
  [6
 
  <./image002.png> <./image003.png>]
-<image004.png, id=206, 469.3786pt x 270.6361pt>
+<image004.png, id=236, 469.3786pt x 270.6361pt>
 File: image004.png Graphic file (type png)
 <use image004.png>
-Package pdftex.def Info: image004.png  used on input line 168.
+Package pdftex.def Info: image004.png  used on input line 170.
 (pdftex.def)             Requested size: 342.2953pt x 197.36035pt.
- [7
+
+[7
 
  <./image004.png>]
-<image005.png, id=235, 470.13141pt x 176.91093pt>
+<image005.png, id=266, 470.13141pt x 176.91093pt>
 File: image005.png Graphic file (type png)
 <use image005.png>
-Package pdftex.def Info: image005.png  used on input line 182.
+Package pdftex.def Info: image005.png  used on input line 184.
 (pdftex.def)             Requested size: 342.2953pt x 128.80647pt.
  [8
 
  <./image005.png>] [9
 
 ]
-<image006.png, id=290, 469.3786pt x 73.02281pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 202.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 202.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 202.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 202.
+
+<image006.png, id=318, 469.3786pt x 73.02281pt>
 File: image006.png Graphic file (type png)
 <use image006.png>
-Package pdftex.def Info: image006.png  used on input line 212.
+Package pdftex.def Info: image006.png  used on input line 217.
 (pdftex.def)             Requested size: 342.2953pt x 53.25159pt.
- [10
+[10
 
  <./image006.png>]
-<image007.png, id=320, 470.13141pt x 29.35968pt>
+<image007.png, id=348, 470.13141pt x 29.35968pt>
 File: image007.png Graphic file (type png)
 <use image007.png>
-Package pdftex.def Info: image007.png  used on input line 220.
+Package pdftex.def Info: image007.png  used on input line 230.
 (pdftex.def)             Requested size: 342.2953pt x 21.37637pt.
  [11
 
  <./image007.png>]
-<image008.png, id=348, 470.13141pt x 109.91063pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 232.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 232.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 232.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 232.
+
+<image008.png, id=376, 470.13141pt x 109.91063pt>
 File: image008.png Graphic file (type png)
 <use image008.png>
-Package pdftex.def Info: image008.png  used on input line 239.
+Package pdftex.def Info: image008.png  used on input line 251.
 (pdftex.def)             Requested size: 342.2953pt x 80.02443pt.
- [12
+[12
 
  <./image008.png>]
-<image009.png, id=378, 470.13141pt x 78.6689pt>
+<image009.png, id=405, 470.13141pt x 78.6689pt>
 File: image009.png Graphic file (type png)
 <use image009.png>
-Package pdftex.def Info: image009.png  used on input line 247.
+Package pdftex.def Info: image009.png  used on input line 264.
 (pdftex.def)             Requested size: 342.2953pt x 57.27776pt.
  [13
 
  <./image009.png>]
-<image010.png, id=407, 469.3786pt x 109.91063pt>
+<image010.png, id=433, 469.3786pt x 109.91063pt>
 File: image010.png Graphic file (type png)
 <use image010.png>
-Package pdftex.def Info: image010.png  used on input line 256.
+Package pdftex.def Info: image010.png  used on input line 275.
 (pdftex.def)             Requested size: 342.2953pt x 80.15189pt.
  [14
 
  <./image010.png>]
-<image011.png, id=435, 470.13141pt x 44.41594pt>
+<image011.png, id=462, 470.13141pt x 44.41594pt>
 File: image011.png Graphic file (type png)
 <use image011.png>
-Package pdftex.def Info: image011.png  used on input line 268.
+Package pdftex.def Info: image011.png  used on input line 287.
 (pdftex.def)             Requested size: 342.2953pt x 32.33864pt.
-<image012.png, id=436, 470.50781pt x 27.85406pt>
+<image012.png, id=463, 470.50781pt x 27.85406pt>
 File: image012.png Graphic file (type png)
 <use image012.png>
-Package pdftex.def Info: image012.png  used on input line 268.
+Package pdftex.def Info: image012.png  used on input line 287.
 (pdftex.def)             Requested size: 342.2953pt x 20.26399pt.
-<image013.png, id=437, 470.13141pt x 113.67468pt>
+<image013.png, id=464, 470.13141pt x 113.67468pt>
 File: image013.png Graphic file (type png)
 <use image013.png>
-Package pdftex.def Info: image013.png  used on input line 268.
+Package pdftex.def Info: image013.png  used on input line 287.
 (pdftex.def)             Requested size: 342.2953pt x 82.765pt.
  [15
 
  <./image011.png> <./image012.png> <./image013.png>]
-<image014.png, id=467, 470.13141pt x 135.88266pt>
+<image014.png, id=494, 470.13141pt x 135.88266pt>
 File: image014.png Graphic file (type png)
 <use image014.png>
-Package pdftex.def Info: image014.png  used on input line 275.
+Package pdftex.def Info: image014.png  used on input line 294.
 (pdftex.def)             Requested size: 342.2953pt x 98.93433pt.
  [16
 
  <./image014.png>] [17
 
 ]
-<image015.png, id=522, 469.755pt x 62.10703pt>
+<image015.png, id=547, 469.755pt x 62.10703pt>
 File: image015.png Graphic file (type png)
 <use image015.png>
-Package pdftex.def Info: image015.png  used on input line 301.
+Package pdftex.def Info: image015.png  used on input line 322.
 (pdftex.def)             Requested size: 376.52692pt x 49.78139pt.
 
-Overfull \hbox (34.23161pt too wide) in paragraph at lines 301--301
+Overfull \hbox (34.23161pt too wide) in paragraph at lines 322--322
  [] 
  []
 
 [18
 
  <./image015.png>]
-<image016.png, id=550, 469.3786pt x 300.3722pt>
+<image016.png, id=575, 469.3786pt x 300.3722pt>
 File: image016.png Graphic file (type png)
 <use image016.png>
-Package pdftex.def Info: image016.png  used on input line 308.
+Package pdftex.def Info: image016.png  used on input line 329.
 (pdftex.def)             Requested size: 342.2953pt x 219.04529pt.
  [19
 
  <./image016.png>] [20
 
 ]
-<image017.png, id=606, 438.13687pt x 251.06297pt>
+<image017.png, id=631, 438.13687pt x 251.06297pt>
 File: image017.png Graphic file (type png)
 <use image017.png>
-Package pdftex.def Info: image017.png  used on input line 323.
+Package pdftex.def Info: image017.png  used on input line 353.
 (pdftex.def)             Requested size: 342.2953pt x 196.14629pt.
  [21
 
  <./image017.png>]
-<image018.png, id=633, 469.755pt x 188.95593pt>
+<image018.png, id=658, 469.755pt x 188.95593pt>
 File: image018.png Graphic file (type png)
 <use image018.png>
-Package pdftex.def Info: image018.png  used on input line 339.
+Package pdftex.def Info: image018.png  used on input line 369.
 (pdftex.def)             Requested size: 273.83728pt x 110.14809pt.
  [22
 
@@ -1185,13 +1216,13 @@ Package pdftex.def Info: image018.png  used on input line 339.
 
  (./slides.aux)
 Package rerunfilecheck Info: File `slides.out' has not changed.
-(rerunfilecheck)             Checksum: 4CA0FF56E3EE124326A4720E136735D1;47.
+(rerunfilecheck)             Checksum: AEA1E0E5C63FFFB141F9866BFED988D1;459.
  ) 
 Here is how much of TeX's memory you used:
- 18468 strings out of 479383
- 356043 string characters out of 5868871
- 649211 words of memory out of 5000000
- 35035 multiletter control sequences out of 15000+600000
+ 18493 strings out of 479383
+ 356273 string characters out of 5868871
+ 650379 words of memory out of 5000000
+ 35055 multiletter control sequences out of 15000+600000
  425248 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,15n,126p,410b,590s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1210,10 +1241,10 @@ fb><e:/software/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pf
 b><e:/software/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 ><e:/software/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfso1000.pfb>
 
-Output written on slides.pdf (22 pages, 1735713 bytes).
+Output written on slides.pdf (22 pages, 1738520 bytes).
 PDF statistics:
- 717 PDF objects out of 1000 (max. 8388607)
- 625 compressed objects within 7 object streams
- 46 named destinations out of 1000 (max. 500000)
- 171 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 743 PDF objects out of 1000 (max. 8388607)
+ 651 compressed objects within 7 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 211 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,1 +1,6 @@
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Model Selection Consistency and Irrepresentable Conditions}{5}{0}{2}
+\beamer@sectionintoc {3}{Model Selection Consistency for Small $q$ and $p$}{10}{0}{3}
+\beamer@sectionintoc {4}{Model Selection Consistency for Large $q$ and $p$}{12}{0}{4}
+\beamer@sectionintoc {5}{Analysis and Sufficient Conditions for Strong Irrepresentable Condition}{14}{0}{5}
+\beamer@sectionintoc {6}{Simulation Studies}{17}{0}{6}

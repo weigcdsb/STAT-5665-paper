@@ -88,7 +88,7 @@
 \title[MSC-LASSO]{On Model Selection Consistency of Lasso} 
 
 \author{Ganchao Wei} 
-\date{December 15, 2021}
+\date{December 8, 2021}
 
 \begin{document}
 	
@@ -111,7 +111,7 @@
 		\frametitle{Introduction}
 		The Lasso estimates $\hat{\beta}^n$ are defined by:
 		$$\hat{\beta}^n(\lambda) = argmin_{\beta}||Y_n - \bm{X}_n\beta||_2^2 + \lambda||\beta||_1$$
-		However, if an irrelevant predictor is highly correlated with the predictors in the true model, Lasso may not be able to distinguish it from the true predictors, with any amount of data and any amount of regularization. E.g.
+		However, if an irrelevant predictor is highly correlated with the predictors in the true model, Lasso may not be able to distinguish it from the true predictors, with any amount of data and any amount of regularization. For example:
 		\begin{itemize}
 			\item 
 			For a fixed $p$ and orthogonal designs, the optimal (i.t.o. parameter estimation) Lasso doesn't give consistent model selection
@@ -133,6 +133,8 @@
 		\vspace{\baselineskip}
 		They found there exists an \textbf{Irrepresentable Condition} that is almost necessary and sufficient for both types of consistency (estimation consistency + model selection consistency)
 	\end{frame}
+	
+	\section{Model Selection Consistency and Irrepresentable Conditions}
 	
 	\begin{frame}
 		\frametitle{Model Selection Consistency and Irrepresentable Conditions}
@@ -190,11 +192,14 @@
 			\item
 			Given $A_n$, $B_n$ further imply $\hat{\beta}^n_{(2)}$ are shrunk to zero.
 			\item
-			$\lambda_n$ trades off the size of these 2 events: smaller leas to larger $A_n$ but smaller $B_n$ $\Rightarrow$ more likely to have Lasso pick more irrelevant variables.
+			$\lambda_n$ trades off the size of these 2 events: smaller leads to larger $A_n$ but smaller $B_n$ $\Rightarrow$ more likely to have Lasso pick more irrelevant variables.
 			\item
 			larger $\eta$  $\Rightarrow$ easier for Lasso to pick up true model (larger $B_n$ but not impact on $A_n$)
 		\end{itemize}
 	\end{frame}
+	
+	
+	\section{Model Selection Consistency for Small $q$ and $p$}
 	
 	\begin{frame}
 		\frametitle{Model Selection Consistency for Small $q$ and $p$}
@@ -213,11 +218,18 @@
 	
 	\begin{frame}
 		\frametitle{Model Selection Consistency for Small $q$ and $p$}
-		They further show that Weak Irrepresentable Condition is also necessary for the weaker general sign sign consistency.
+		
+		Theorem 1 shows: Strong Irrepresentable Condition + finite second moment of the noise $\Rightarrow$ strong sign consistency at exponentail rate\\
+		\vspace{\baselineskip}
+		Moreover, by Knight and Fu(2000): $\lambda_n = o(n) \Rightarrow$ LASSO has consistent estimation and asymptotic normality.\\
+		\vspace{\baselineskip}
+		They further show that Weak Irrepresentable Condition is also necessary for the weaker general sign consistency.
 		\begin{figure}
 			\includegraphics[width=1\linewidth]{image007.png}
 		\end{figure}
 	\end{frame}
+	
+	\section{Model Selection Consistency for Large $q$ and $p$}
 	
 	\begin{frame}
 		\frametitle{Model Selection Consistency for Large $q$ and $p$}
@@ -240,15 +252,22 @@
 		
 	\begin{frame}
 		\frametitle{Model Selection Consistency for Large $q$ and $p$}
-		In particular, fr Gaussian noise:
+		In particular, for Gaussian noise:
 		\begin{figure}
 			\includegraphics[width=1\linewidth]{image009.png}
 		\end{figure}
+	
+		This is interesting: for Gaussian noise, $p$ can grow faster than $n$ (up to exponentially), while still allow for fast convergence of the probability of correct model selection to 1.\\
+		\vspace{\baselineskip}
+		\textbf{This is not the case for all noise distributions}.
+		
 	\end{frame}
+	
+	\section{Analysis and Sufficient Conditions for Strong Irrepresentable Condition}
 	
 	\begin{frame}
 		\frametitle{Analysis and Sufficient Conditions for Strong Irrepresentable Condition}
-		In general, the Irrepresentable Condition is non-trivial. Therefore, they give 5 sufficient conditions, such that Strong Irrepresentable Condition is guaranteed.
+		In general, the Irrepresentable Condition is non-trivial, when number of zeros and nonzeros are of moderate sizes. Therefore, they give 5 sufficient conditions, such that Strong Irrepresentable Condition is guaranteed.
 		\begin{figure}
 			\includegraphics[width=1\linewidth]{image010.png}
 		\end{figure}
@@ -274,10 +293,12 @@
 		\end{figure}	
 	\end{frame}
 	
+	\section{Simulation Studies}
+	
 	\begin{frame}
 		\frametitle{Simulations}
 		\textbf{Simulation 1}: Consistency and Inconsistency with 3 Variables\\
-		Generate i.i.d. random variables $x_{i1}, x_{i2}, e_i$ and $\epsilon_i$, with variance 1 and mean 0, for $i=1,\ldots,n=1000$. $x_i3$ is correlated with $x_{i1}$ and $x_{i2}$:
+		Generate i.i.d. random variables $x_{i1}, x_{i2}, e_i$ and $\epsilon_i$, with variance 1 and mean 0, for $i=1,\ldots,n=1000$. $x_{i3}$ is correlated with $x_{i1}$ and $x_{i2}$:
 		$$x_{i3} = \frac{2}{3}x_{i1} + \frac{2}{3}x_{i2} + \frac{1}{3}e_i$$
 		The response:
 		$$Y_i = x_{i1}\beta_1 + x_{i2}\beta_2 + \epsilon_i$$
@@ -312,7 +333,16 @@
 		\textbf{Simulation 2}: Quantitative Evaluation of Impact of Strong Irrepresentable Condition on Model Selection\\
 		Take $n=100, p = 32, q = 5, \beta_1 = (7,4,2,1,1)^T$ and choose a small $\sigma^2 = 0.1$. Calculate $\eta_{\infty} = 1 - ||C_{21}^n(C_{11}^n)^{-1}sign(\beta_{(1)}^n)||_{\infty}$.\\
 		\vspace{\baselineskip}
-		$\eta_{\infty} > 0$ means the Strong Irrepresentable Condition holds. The larger, the stronger.
+		$\eta_{\infty} > 0$ means the Strong Irrepresentable Condition holds. The plot in the next page:
+		\begin{itemize}
+			\item 
+			The larger $\eta_{\infty}$, the stronger the condition.
+			\item
+			steepest increase happens around 0.
+		\end{itemize}
+		
+		
+		 
 	\end{frame}
 	
 	\begin{frame}
